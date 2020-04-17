@@ -14,3 +14,7 @@ func (*StatelessWidget) CreateElement() Element {
 func (*StatelessWidget) CreateRenderObject() RenderObject {
 	return nil
 }
+
+func (*StatelessWidget) build() Widget {
+	return nil
+}
